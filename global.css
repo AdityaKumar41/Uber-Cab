@@ -1,0 +1,6 @@
+:root {
+  --PhoneInputCountryFlag-aspectRatio: 1.333;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
