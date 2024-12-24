@@ -23,25 +23,6 @@ const RootLayout = () => {
           headerShown: false,
         }}
       />
-      <Stack.Screen
-        name="(modals)/location-search"
-        options={{
-          presentation: "modal",
-          headerTitle: "Select location",
-          headerShadowVisible: false,
-          headerStyle: {
-            backgroundColor: "white",
-          },
-        }}
-      />
-      <Stack.Screen
-        name="(modals)/booking-modal"
-        options={{
-          presentation: "modal",
-          headerTitle: "Booking Details",
-          headerShadowVisible: false,
-        }}
-      />
     </Stack>
   );
 };
